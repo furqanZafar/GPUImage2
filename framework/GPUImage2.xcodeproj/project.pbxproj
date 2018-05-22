@@ -36,7 +36,7 @@
 		BC4EE16F1CB3554200AD8A65 /* RawDataOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4EE16E1CB3554200AD8A65 /* RawDataOutput.swift */; };
 		BC4EE1741CB3711600AD8A65 /* GaussianBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4EE1731CB3711600AD8A65 /* GaussianBlur.swift */; };
 		BC5B866F1CC07145006CDE75 /* PictureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B866E1CC07145006CDE75 /* PictureOutput.swift */; };
-		BC6E7CB61C39A9D8006DF678 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6E7CAB1C39A9D8006DF678 /* GPUImage.framework */; };
+		BC6E7CB61C39A9D8006DF678 /* GPUImage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6E7CAB1C39A9D8006DF678 /* GPUImage2.framework */; };
 		BC6E7CC71C39AD9E006DF678 /* ShaderProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E7CC61C39AD9E006DF678 /* ShaderProgram.swift */; };
 		BC6E7CC81C39AD9E006DF678 /* ShaderProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E7CC61C39AD9E006DF678 /* ShaderProgram.swift */; };
 		BC6E7CCA1C39ADCC006DF678 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6E7CC91C39ADCC006DF678 /* OpenGL.framework */; };
@@ -131,7 +131,7 @@
 		BC8B7A8F1CB5A84C00ACF7AA /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B7A8E1CB5A84C00ACF7AA /* BoxBlur.swift */; };
 		BC9673411C8B897100FB64C2 /* FramebufferCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9673401C8B897100FB64C2 /* FramebufferCache.swift */; };
 		BC9673431C8B8A8100FB64C2 /* OpenGLRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9673421C8B8A8100FB64C2 /* OpenGLRendering.swift */; };
-		BC9E34F21E524A2300B8604F /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9E34E91E524A2200B8604F /* GPUImage.framework */; };
+		BC9E34F21E524A2300B8604F /* GPUImage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9E34E91E524A2200B8604F /* GPUImage2.framework */; };
 		BC9E35021E524BE200B8604F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9E35011E524BE200B8604F /* OpenGLES.framework */; };
 		BC9E35071E524C5B00B8604F /* OpenGLContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35051E524C5700B8604F /* OpenGLContext.swift */; };
 		BC9E35081E524C5B00B8604F /* OpenGLContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35051E524C5700B8604F /* OpenGLContext.swift */; };
@@ -408,8 +408,8 @@
 		BC4EE16E1CB3554200AD8A65 /* RawDataOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RawDataOutput.swift; path = Source/RawDataOutput.swift; sourceTree = "<group>"; };
 		BC4EE1731CB3711600AD8A65 /* GaussianBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = GaussianBlur.swift; path = Source/Operations/GaussianBlur.swift; sourceTree = "<group>"; };
 		BC5B866E1CC07145006CDE75 /* PictureOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureOutput.swift; path = Source/Mac/PictureOutput.swift; sourceTree = "<group>"; };
-		BC6E7CAB1C39A9D8006DF678 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6E7CB51C39A9D8006DF678 /* GPUImageTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6E7CAB1C39A9D8006DF678 /* GPUImage2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6E7CB51C39A9D8006DF678 /* GPUImage2Tests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImage2Tests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6E7CC61C39AD9E006DF678 /* ShaderProgram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShaderProgram.swift; path = Source/ShaderProgram.swift; sourceTree = "<group>"; };
 		BC6E7CC91C39ADCC006DF678 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		BC6E7CD31C3A29FF006DF678 /* OpenGLContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLContext.swift; path = Source/Mac/OpenGLContext.swift; sourceTree = "<group>"; };
@@ -565,8 +565,8 @@
 		BC91EDCE1C91E92000C704A8 /* OneInput.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = OneInput.vsh; path = Source/Operations/Shaders/OneInput.vsh; sourceTree = "<group>"; };
 		BC9673401C8B897100FB64C2 /* FramebufferCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FramebufferCache.swift; path = Source/FramebufferCache.swift; sourceTree = "<group>"; };
 		BC9673421C8B8A8100FB64C2 /* OpenGLRendering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLRendering.swift; path = Source/OpenGLRendering.swift; sourceTree = "<group>"; };
-		BC9E34E91E524A2200B8604F /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9E34F11E524A2200B8604F /* GPUImageTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9E34E91E524A2200B8604F /* GPUImage2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUImage2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9E34F11E524A2200B8604F /* GPUImage2Tests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImage2Tests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9E35011E524BE200B8604F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		BC9E35051E524C5700B8604F /* OpenGLContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLContext.swift; path = Source/iOS/OpenGLContext.swift; sourceTree = "<group>"; };
 		BC9E350B1E524CB900B8604F /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Source/iOS/Camera.swift; sourceTree = "<group>"; };
@@ -701,7 +701,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC6E7CB61C39A9D8006DF678 /* GPUImage.framework in Frameworks */,
+				BC6E7CB61C39A9D8006DF678 /* GPUImage2.framework in Frameworks */,
 				BC6E7CCC1C39B34B006DF678 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,7 +718,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9E34F21E524A2300B8604F /* GPUImage.framework in Frameworks */,
+				BC9E34F21E524A2300B8604F /* GPUImage2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,10 +950,10 @@
 		BC6E7CAC1C39A9D8006DF678 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC6E7CAB1C39A9D8006DF678 /* GPUImage.framework */,
-				BC6E7CB51C39A9D8006DF678 /* GPUImageTests_macOS.xctest */,
-				BC9E34E91E524A2200B8604F /* GPUImage.framework */,
-				BC9E34F11E524A2200B8604F /* GPUImageTests_iOS.xctest */,
+				BC6E7CAB1C39A9D8006DF678 /* GPUImage2.framework */,
+				BC6E7CB51C39A9D8006DF678 /* GPUImage2Tests_macOS.xctest */,
+				BC9E34E91E524A2200B8604F /* GPUImage2.framework */,
+				BC9E34F11E524A2200B8604F /* GPUImage2Tests_iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1211,9 +1211,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BC6E7CAA1C39A9D8006DF678 /* GPUImage_macOS */ = {
+		BC6E7CAA1C39A9D8006DF678 /* GPUImage2_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC6E7CBF1C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage_macOS" */;
+			buildConfigurationList = BC6E7CBF1C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage2_macOS" */;
 			buildPhases = (
 				BC6E7CA61C39A9D8006DF678 /* Sources */,
 				BC6E7CA71C39A9D8006DF678 /* Frameworks */,
@@ -1224,14 +1224,14 @@
 			);
 			dependencies = (
 			);
-			name = GPUImage_macOS;
+			name = GPUImage2_macOS;
 			productName = GPUImage;
-			productReference = BC6E7CAB1C39A9D8006DF678 /* GPUImage.framework */;
+			productReference = BC6E7CAB1C39A9D8006DF678 /* GPUImage2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BC6E7CB41C39A9D8006DF678 /* GPUImageTests_macOS */ = {
+		BC6E7CB41C39A9D8006DF678 /* GPUImage2Tests_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC6E7CC21C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImageTests_macOS" */;
+			buildConfigurationList = BC6E7CC21C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage2Tests_macOS" */;
 			buildPhases = (
 				BC6E7CB11C39A9D8006DF678 /* Sources */,
 				BC6E7CB21C39A9D8006DF678 /* Frameworks */,
@@ -1242,14 +1242,14 @@
 			dependencies = (
 				BC6E7CB81C39A9D8006DF678 /* PBXTargetDependency */,
 			);
-			name = GPUImageTests_macOS;
+			name = GPUImage2Tests_macOS;
 			productName = GPUImageTests;
-			productReference = BC6E7CB51C39A9D8006DF678 /* GPUImageTests_macOS.xctest */;
+			productReference = BC6E7CB51C39A9D8006DF678 /* GPUImage2Tests_macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BC9E34E81E524A2200B8604F /* GPUImage_iOS */ = {
+		BC9E34E81E524A2200B8604F /* GPUImage2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC9E34FA1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage_iOS" */;
+			buildConfigurationList = BC9E34FA1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage2" */;
 			buildPhases = (
 				BC9E34E41E524A2200B8604F /* Sources */,
 				BC9E34E51E524A2200B8604F /* Frameworks */,
@@ -1260,14 +1260,14 @@
 			);
 			dependencies = (
 			);
-			name = GPUImage_iOS;
+			name = GPUImage2;
 			productName = GPUImage;
-			productReference = BC9E34E91E524A2200B8604F /* GPUImage.framework */;
+			productReference = BC9E34E91E524A2200B8604F /* GPUImage2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BC9E34F01E524A2200B8604F /* GPUImageTests_iOS */ = {
+		BC9E34F01E524A2200B8604F /* GPUImage2Tests_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC9E34FD1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImageTests_iOS" */;
+			buildConfigurationList = BC9E34FD1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage2Tests_iOS" */;
 			buildPhases = (
 				BC9E34ED1E524A2200B8604F /* Sources */,
 				BC9E34EE1E524A2200B8604F /* Frameworks */,
@@ -1278,9 +1278,9 @@
 			dependencies = (
 				BC9E34F41E524A2300B8604F /* PBXTargetDependency */,
 			);
-			name = GPUImageTests_iOS;
+			name = GPUImage2Tests_iOS;
 			productName = GPUImageTests;
-			productReference = BC9E34F11E524A2200B8604F /* GPUImageTests_iOS.xctest */;
+			productReference = BC9E34F11E524A2200B8604F /* GPUImage2Tests_iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1311,7 +1311,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC6E7CA51C39A9D8006DF678 /* Build configuration list for PBXProject "GPUImage" */;
+			buildConfigurationList = BC6E7CA51C39A9D8006DF678 /* Build configuration list for PBXProject "GPUImage2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1323,10 +1323,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC6E7CAA1C39A9D8006DF678 /* GPUImage_macOS */,
-				BC6E7CB41C39A9D8006DF678 /* GPUImageTests_macOS */,
-				BC9E34E81E524A2200B8604F /* GPUImage_iOS */,
-				BC9E34F01E524A2200B8604F /* GPUImageTests_iOS */,
+				BC6E7CAA1C39A9D8006DF678 /* GPUImage2_macOS */,
+				BC6E7CB41C39A9D8006DF678 /* GPUImage2Tests_macOS */,
+				BC9E34E81E524A2200B8604F /* GPUImage2 */,
+				BC9E34F01E524A2200B8604F /* GPUImage2Tests_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1734,12 +1734,12 @@
 /* Begin PBXTargetDependency section */
 		BC6E7CB81C39A9D8006DF678 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC6E7CAA1C39A9D8006DF678 /* GPUImage_macOS */;
+			target = BC6E7CAA1C39A9D8006DF678 /* GPUImage2_macOS */;
 			targetProxy = BC88650E1E526F9D00F16A7E /* PBXContainerItemProxy */;
 		};
 		BC9E34F41E524A2300B8604F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC9E34E81E524A2200B8604F /* GPUImage_iOS */;
+			target = BC9E34E81E524A2200B8604F /* GPUImage2 */;
 			targetProxy = BC9E34F31E524A2300B8604F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1852,7 +1852,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DGL -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage;
-				PRODUCT_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage2;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1874,7 +1874,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DGL";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage;
-				PRODUCT_NAME = GPUImage;
+				PRODUCT_NAME = GPUImage2;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
@@ -1920,13 +1920,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/GPUImage.xcodeproj/GPUImage_Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GPUImage2.xcodeproj/GPUImage_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEBUG -DGLES";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage;
-				PRODUCT_NAME = GPUImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage2;
+				PRODUCT_NAME = GPUImage2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1949,13 +1949,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/GPUImage.xcodeproj/GPUImage_Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GPUImage2.xcodeproj/GPUImage_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DGLES";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage;
-				PRODUCT_NAME = GPUImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.GPUImage2;
+				PRODUCT_NAME = GPUImage2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2013,7 +2013,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC6E7CA51C39A9D8006DF678 /* Build configuration list for PBXProject "GPUImage" */ = {
+		BC6E7CA51C39A9D8006DF678 /* Build configuration list for PBXProject "GPUImage2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6E7CBD1C39A9D8006DF678 /* Debug */,
@@ -2022,7 +2022,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC6E7CBF1C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage_macOS" */ = {
+		BC6E7CBF1C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage2_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6E7CC01C39A9D8006DF678 /* Debug */,
@@ -2031,7 +2031,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC6E7CC21C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImageTests_macOS" */ = {
+		BC6E7CC21C39A9D8006DF678 /* Build configuration list for PBXNativeTarget "GPUImage2Tests_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6E7CC31C39A9D8006DF678 /* Debug */,
@@ -2040,7 +2040,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC9E34FA1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage_iOS" */ = {
+		BC9E34FA1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC9E34FB1E524A2300B8604F /* Debug */,
@@ -2049,7 +2049,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC9E34FD1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImageTests_iOS" */ = {
+		BC9E34FD1E524A2300B8604F /* Build configuration list for PBXNativeTarget "GPUImage2Tests_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC9E34FE1E524A2300B8604F /* Debug */,
